@@ -11,18 +11,9 @@ Every decision includes a **traceable rationale** showing exactly which business
 > **No AI/LLM dependency. No database. No external libraries. Just Java + configurable business rules.**
 
 ---
-
-## 🎥 Live Demo
-
 ### ▶️ Watch the Project Demo
 
-> The demo shows the approval engine evaluating expense claims, explaining decisions, and applying new business rules without changing Java source code.
-
-**Replace `YOUR_YOUTUBE_VIDEO_URL` with your actual YouTube/Loom video URL.**
-
----
-
-## 📸 Application Preview
+https://drive.google.com/file/d/1iy3qK7PYlBHag6A_osnvSaabma6WEpGu/view?usp=drivesdk
 
 ### Approval Dashboard
 
