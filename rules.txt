@@ -1,0 +1,28 @@
+# ============================================================================
+# POLICY RULES — edit this file to change approval behavior.
+# No code changes needed. One rule per line. Lines starting with # are comments.
+#
+# The engine understands:
+#   - actions: approve / auto-approve, reject / deny, escalate
+#   - amounts: under / below / less than X   |   above / over / more than X
+#              between X and Y
+#   - department: "for <Department>" or "in <Department>" (optional)
+#   - category:  travel, meals, software, equipment, client_dinner,
+#                advertising, other (optional)
+#   - "regardless of department" / "any department" -> applies to everyone
+#
+# Rules are evaluated MOST specific first automatically (a rule that names
+# a department AND a category outranks a generic one). The FIRST matching
+# rule wins for each claim, and its exact text becomes the rationale.
+# ============================================================================
+
+Auto-approve expenses under $500 for Sales
+Auto-approve travel expenses under $300 for any department
+Escalate expenses above $2000 regardless of department
+Reject expenses above $1000 for Marketing without justification
+Auto-approve software expenses under $150 for Engineering
+Escalate meals expenses above $200 for any department
+Approve expenses under $200 regardless of department
+
+Escalate expenses above $800 for HR
+Escalate expenses above $400 for any department

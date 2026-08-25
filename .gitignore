@@ -1,0 +1,6 @@
+out/
+*.class
+decisions.csv
+.idea/
+*.iml
+.DS_Store

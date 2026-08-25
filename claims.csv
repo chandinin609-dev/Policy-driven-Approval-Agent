@@ -1,0 +1,11 @@
+claim_id,employee,department,category,amount,description,has_justification
+C001,Ravi Kumar,Sales,client_dinner,420,Client dinner during site visit,yes
+C002,Anita Rao,Marketing,advertising,1500,Local ad campaign print material,no
+C003,Suresh Iyer,Engineering,software,120,IDE license renewal,yes
+C004,Priya Menon,Finance,travel,275,Cab fare for audit visit,yes
+C005,Deepak Nair,Sales,equipment,2500,New laptop for field sales,yes
+C006,Kavya Reddy,Marketing,meals,250,Team lunch after campaign launch,yes
+C007,Arjun Das,Operations,other,180,Office supplies,yes
+C008,Meera Joshi,Engineering,software,300,Cloud subscription upgrade,yes
+C009,Rohit Sharma,HR,travel,900,Flight for recruitment drive,yes
+C010,Sneha Pillai,Sales,client_dinner,510,Client dinner - large group,no
