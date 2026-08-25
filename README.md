@@ -16,8 +16,6 @@ Every decision includes a **traceable rationale** showing exactly which business
 
 ### ▶️ Watch the Project Demo
 
-[![Watch the Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-FF0000?style=for-the-badge\&logo=youtube\&logoColor=white)](YOUR_YOUTUBE_VIDEO_URL)
-
 > The demo shows the approval engine evaluating expense claims, explaining decisions, and applying new business rules without changing Java source code.
 
 **Replace `YOUR_YOUTUBE_VIDEO_URL` with your actual YouTube/Loom video URL.**
