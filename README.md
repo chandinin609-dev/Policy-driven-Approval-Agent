@@ -19,8 +19,6 @@ https://drive.google.com/file/d/1iy3qK7PYlBHag6A_osnvSaabma6WEpGu/view?usp=drive
 
 The project includes a lightweight built-in web interface for demonstrating the rule engine.
 
-![Policy Approval Dashboard](YOUR_SCREENSHOT_URL)
-
 ### What the dashboard demonstrates
 
 * 📋 Configurable business rules
