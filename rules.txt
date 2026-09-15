@@ -17,7 +17,6 @@
 # rule wins for each claim, and its exact text becomes the rationale.
 # ============================================================================
 
-
 Auto-approve expenses under $500 for Sales
 Auto-approve travel expenses under $300 for any department
 Escalate expenses above $2000 regardless of department
@@ -25,7 +24,6 @@ Reject expenses above $1000 for Marketing without justification
 Auto-approve software expenses under $150 for Engineering
 Escalate meals expenses above $200 for any department
 Approve expenses under $200 regardless of department
-
 
 Escalate expenses above $800 for HR
 Escalate expenses above $400 for any department
