@@ -64,7 +64,7 @@ public class Main {
         if (idx == null || idx >= fields.length) return defaultVal;
         return fields[idx];
     }
-
+    
     // Minimal CSV splitter: handles simple comma-separated values (no
     // embedded commas in our sample data, so no quoting logic needed).
     private static String[] splitCsvLine(String line) {
