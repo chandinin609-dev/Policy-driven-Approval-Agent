@@ -1,5 +1,4 @@
 package agent;
-
 public class Claim {
     public final String claimId;
     public final String employee;
