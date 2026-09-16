@@ -13,7 +13,6 @@ import java.util.*;
  *   java -cp out agent.Main rules.txt claims.csv decisions.csv
  */
 public class Main {
-
     public static void main(String[] args) throws IOException {
         String rulesPath = args.length > 0 ? args[0] : "rules.txt";
         String claimsPath = args.length > 1 ? args[1] : "claims.csv";
