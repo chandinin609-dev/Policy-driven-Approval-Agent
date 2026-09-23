@@ -16,6 +16,7 @@
 # rule wins for each claim, and its exact text becomes the rationale.
 # ============================================================================
 
+
 Auto-approve expenses under $500 for Sales
 Auto-approve travel expenses under $300 for any department
 Escalate expenses above $2000 regardless of department
