@@ -9,7 +9,6 @@ import java.util.List;
  * that was applied (or explaining the default fallback).
  */
 public class ApprovalEngine {
-
     public static Decision evaluateClaim(Claim claim, List<Rule> rules) {
         for (Rule rule : rules) {
             if (matches(rule, claim)) {
@@ -22,7 +21,6 @@ public class ApprovalEngine {
                         claim.amount, rule.action, rule.rawText, rationale);
             }
         }
-
         // No rule matched -> fail-safe: escalate for human review. Never
         // silently approve or reject an ambiguous / unanticipated case.
         String rationale = "No configured rule matched this claim. Escalated to a human reviewer " +
@@ -30,7 +28,6 @@ public class ApprovalEngine {
         return new Decision(claim.claimId, claim.employee, claim.department, claim.category,
                 claim.amount, "escalate", null, rationale);
     }
-
     public static List<Decision> evaluateBatch(List<Claim> claims, List<Rule> rules) {
         List<Decision> decisions = new ArrayList<>();
         for (Claim c : claims) {
@@ -38,7 +35,6 @@ public class ApprovalEngine {
         }
         return decisions;
     }
-
     private static boolean matches(Rule rule, Claim claim) {
         if (rule.department != null && !rule.department.equalsIgnoreCase(claim.department)) {
             return false;
@@ -59,11 +55,9 @@ public class ApprovalEngine {
         }
         return true;
     }
-
     private static String fmt(double d) {
         if (d == Math.floor(d)) return String.valueOf((long) d);
         return String.valueOf(d);
     }
-
     private ApprovalEngine() {}
 }
