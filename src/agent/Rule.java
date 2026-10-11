@@ -1,5 +1,4 @@
 package agent;
-
 /**
  * A structured, evaluable representation of one plain-English policy rule.
  * The rawText is always kept so the engine can cite it verbatim in a
