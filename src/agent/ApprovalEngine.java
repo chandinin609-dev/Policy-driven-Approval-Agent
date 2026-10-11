@@ -1,8 +1,6 @@
 package agent;
-
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Applies the parsed policy rules to a batch of claims and produces a
  * decision + rationale for every claim, always citing the exact rule text
