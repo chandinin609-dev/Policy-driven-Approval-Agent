@@ -11,15 +11,12 @@ The system produces one of three decisions:
 Every decision includes a **traceable rationale** explaining exactly which business rule produced the result.
 
 > **No AI/LLM dependency. No database. No external libraries. Just Java + configurable business rules.**
-
 ---
-
 ## 🎥 Project Demo
 
 https://drive.google.com/file/d/1iy3qK7PYlBHag6A_osnvSaabma6WEpGu/view?usp=drivesdk
 
 The demo shows the dashboard, policy configuration, expense evaluation, and approval/rejection/escalation decisions.
-
 ---
 
 ## 📊 Application Dashboard
